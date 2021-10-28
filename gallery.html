@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Informatics UNSIKA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+</head>
+
+<body>
+
+    <!-- top-nav -->
+    <section class="top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-between">
+                        <p>Welcome to <span class="top-nav-title">Website HIMTIKA</span></p>
+                        <p>
+                            <img src="assets/icon/calling.png" alt="Calling">
+                            <span class="top-nav-title">Call for help:</span> (+62) 856 9559 9498
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-between">
+                        <p>
+                            <img src="assets/icon/email.png" alt="Email">
+                            <span class="top-nav-title">Mail to us:</span> himtika@lorem.com
+                        </p>
+                        <div class="social-media">
+                            <a href="#"><img src="assets/icon/facebook.png" alt="Facebook"></a>
+                            <img src="assets/icon/twitter.png" alt="Facebook">
+                            <img src="assets/icon/instagram.png" alt="Instagram">
+                            <img src="assets/icon/tik-tok.png" alt="Tiktok">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <section class="navbar-nav">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" title="Himpunan Mahasiswa Teknik Informatika UNSIKA">
+                    <img src="assets/logo/Logo.png" width="183" height="70" alt="HIMTIKA">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" aria-current="page" href="index.html" title="Beranda">Beranda</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#" title="Tentang Kami">Tentang Kami</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="#" title="Pengurus">Pengurus</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="article.html" title="Artikel">Artikel</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" href="gallery.html" title="Galeri">Galeri</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-contact" title="Kontak Kami">Kontak Kami</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="display-5">Kegiatan Kami</h3>
+                </div>
+                <div class="col-md-8">
+                    <img class="img-line" src="assets/icon/line.png" alt="Line">
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-8">
+                    <h2>Beberapa karya dari galeri kami yang tak terlupakan</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <div class="container">
+        <div class="row d-flex flex-wrap align-items-center" data-bs-toggle="modal" data-bs-target="#lightbox">
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="assets/image/Galeri/1.webp" data-bs-target="#indicators" data-slide-to="0" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="assets/image/Galeri/2.webp" data-bs-target="#indicators" data-slide-to="1" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="assets/image/Galeri/3.webp" data-bs-target="#indicators" data-slide-to="2" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="assets/image/Galeri/4.webp" data-bs-target="#indicators" data-slide-to="3" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="assets/image/Galeri/5.webp" data-bs-target="#indicators" data-slide-to="3" alt="" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="assets/image/Galeri/6.webp" data-bs-target="#indicators" data-slide-to="4" alt="" />
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="lightbox" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="btn-close p-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div id="indicators" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#indicators" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#indicators" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#indicators" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#indicators" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#indicators" data-bs-slide-to="4"></li>
+                            <li data-bs-target="#indicators" data-bs-slide-to="5"></li>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <img class="d-block w-100" src="assets/image/Galeri/1.webp" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/image/Galeri/2.webp" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/image/Galeri/3.webp" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/image/Galeri/4.webp" alt="Fourth slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/image/Galeri/5.webp" alt="Fifth slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="assets/image/Galeri/6.webp" alt="Sixth slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#indicators" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#indicators" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="container mb-5">
+        <div class="row">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-lg justify-content-center">
+                    <li class="page-item active me-4">
+                        <span class="page-link">1</span>
+                    </li>
+                    <li class="page-item me-4"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">&gt;</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-spacer mt-5"></div>
+    <div class="footer-main mt-5">
+        <div class="footer-main_header-icon">
+            <div class="ellipse">
+                <img src="assets/logo/Himtika.png" alt="HIMTIKA" title="HIMTIKA">
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="footer-main_title">We are HIMTIKA</div>
+                    <div class="footer-main_desc">
+                        Himpunan Mahasiswa Teknik Informatika Universitas Singaperbangsa
+                        yang berdiri pada tanggal 16 Oktober 2017
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="footer-main_title">Newsletter</div>
+                    <div class="footer-main_desc">
+                        Subscribe our newsletter to <br> get our latest update & news
+                    </div>
+                    <div class="mt-3">
+                        <form class="d-flex form-newsletter">
+                            <input class="form-control" type="text" placeholder="Masukkan Email">
+                            <button class="btn btn-primary btn-newsletter" type="submit"><img src="assets/icon/send.png"
+                                    class="img-fluid"></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-main_title">Official Info</div>
+                    <div class="footer-main_desc">
+                        <div class="row mb-3">
+                            <div class="col-1">
+                                <img src="assets/icon/pin-24.png" alt="" />
+                            </div>
+                            <div class="col-10">Jl. Lorem ipsum dolor sit amet.</div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-1">
+                                <img src="assets/icon/telephone-24.png" alt="" />
+                            </div>
+                            <div class="col-10">(+62) 856 9999 8888</div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-1">
+                                <img src="assets/icon/email-24.png" alt="" />
+                            </div>
+                            <div class="col-10">himtika@lorem.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-end">
+        <div class="footer-end_copyright">
+            2021 © All rights reserved by Informatics UNSIKA
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
