@@ -239,6 +239,92 @@ body {
     font-size: 16px;
 }
 
+/* Article Detail */
+
+
+
+hr{
+    background-color: #E8EAF3;
+}
+
+.paggi{
+    text-align: center;
+    line-height: 50px;
+    color: #212D53;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #E8EAF3;
+}
+
+.comment h3{
+    color: #212D53;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.comment-form textarea, input[type=text], input[type=email]{
+    background-color: #fff;
+    border: 3px solid #E8EAF3;
+    resize: none;
+}
+
+.comment-form .btn{
+    border-radius: 10px;
+}
+
+.form-search, input[type=search]{
+    border-radius: 0px;
+    background-color: #E8EAF3;
+    border: 0;
+}
+
+.form-search, input[type=search]::placeholder{
+    color: #212D53;
+    font-weight: 700;
+}
+
+.form-search, input[type=search]:focus{
+    outline: none;
+}
+
+.form-search .btn{
+    border-radius: 0;
+    border: 0;
+    background-color: #212D53;
+}
+
+.card .recent a{
+    color: #212D53;
+}
+
+.card .recent h5{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.card .recent a:hover{
+    color: #0472E2;
+    font-weight: 700;
+}
+
+.category{
+    border-bottom: 1px solid #E8EAF3;
+}
+
+.category p{
+    color: #212D53;
+    font-weight: 500;
+}
+
+.category p:hover{
+    color: #0472E2;
+    font-weight: 700;
+}
+
+.tags{
+    background-color: #E8EAF3;
+}
+
 /* responsive */
 @media(max-width:670px) {
     .top-nav {
