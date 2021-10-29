@@ -234,7 +234,7 @@ body {
 
 .about-box {
   display: flex;
-  justify-content: center;
+  justify-content: between;
   /* border: 1px solid red; */
 }
 
