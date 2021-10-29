@@ -51,7 +51,7 @@ class HeaderComponent extends HTMLElement {
   render() {
     return (this.innerHTML = `
       <div id="header" class="col-12 col-sm-12 col-lg-12 col-xl-12">
-        <nav class="navbar navbar-expand-sm navbar-light navbar-top">
+        <nav class="navbar navbar-expand-sm navbar-light navbar-top top-nav">
           <div class="container">
             <a class="navbar-brand" href="#">
               Welcome to <span>Website Himtika</span>
@@ -76,10 +76,10 @@ class HeaderComponent extends HTMLElement {
             </div>
             <div class="d-flex flex-row-reverse bd-highlight">
               <div class="navbar-information_box-icon">
-                <img src="assets/icon/facebook.png" alt="" />
-                <img src="assets/icon/twitter.png" alt="" />
-                <img src="assets/icon/instagram.png" alt="" />
-                <img src="assets/icon/tik-tok.png" alt="" />
+                <a href="#"><img src="assets/icon/facebook.png" alt="Facebook" /></a>
+                <a href="#"><img src="assets/icon/twitter.png" alt="Twitter" /></a>
+                <a href="#"><img src="assets/icon/instagram.png" alt="Instagram" /></a>
+                <a href="#"><img src="assets/icon/tik-tok.png" alt="Tiktok" /></a>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ class HeaderComponent extends HTMLElement {
         <nav class="navbar navbar-expand-lg navbar-light navbar-top">
           <div class="container">
             <div class="navbar-logo">
-              <img src="${this._navbarlogo}" alt="" srcset="" />
+              <a href="index.html" title="HIMTIKA"><img src="${this._navbarlogo}" alt="HIMTIKA" /></a>
             </div>
             <button
               class="navbar-toggler"
@@ -105,9 +105,9 @@ class HeaderComponent extends HTMLElement {
               ${this.navItem()}
               </ul>
               <form class="d-flex">
-                <button class="btn btn-primary btn-navbar" type="submit">
+                <a href="contact.html" class="btn btn-primary btn-navbar">
                   Kontak Kami
-                </button>
+                </a>
               </form>
             </div>
           </div>
