@@ -22,6 +22,12 @@ body {
   z-index: 97;
 }
 
+.navbar-nav .nav-link.active {
+  opacity: 1;
+  font-weight: 600;  
+  border-bottom: 3px solid rgba(0,0,0,.55);
+}
+
 .navbar-top {
   border-bottom: 1px solid #eaeaea;
 
