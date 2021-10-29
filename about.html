@@ -13,12 +13,11 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/about.css" />
 
-  <title>About</title>
+  <title>About - Informatics UNSIKA</title>
 </head>
 
 <body>
-  <header-component 
-    navbarLogo="assets/logo/logo.png"
+  <header-component navbarLogo="assets/logo/logo.png"
     navbarTitle="'Beranda', 'Tentang Kami', 'Pengurus', 'Artikel', 'Galeri'"
     navbarLink="'/', 'about.html', 'organization-committee.html', 'article.html', 'gallery.html'"></header-component>
 
@@ -27,12 +26,15 @@
   <div class="content content-bg-white">
     <div class="container">
       <div class="row about-content">
-        <div class="col-4">
+        <div class="col-md-4 ">
           <div class="about-content_logo">
-            <img src="assets/logo/Himtika.png" alt="" />
+            <!-- Desktop -->
+            <img src="assets/logo/Himtika.png" alt="HIMTIKA" class="img-fluid d-md-block d-none" />
+            <!-- Mobile -->
+            <img src="assets/logo/Himtika.png" alt="HIMTIKA" class="img-fluid d-md-none d-block mx-auto mb-4" />
           </div>
         </div>
-        <div class="col-7">
+        <div class="col-md-7">
           <div class="heading-content">
             <h1>Tentang HIMTIKA</h1>
             <div class="heading-content lines"></div>
@@ -54,7 +56,7 @@
   <div class="content content-bg-grey">
     <div class="container">
       <div class="row division-content">
-        <div class="col-8">
+        <div class="col-md-8">
           <div class="heading-content">
             <h1>Divisi HIMTIKA</h1>
             <div class="heading-content lines"></div>
@@ -115,98 +117,106 @@
   <div class="content content-bg-white">
     <div class="container">
       <div class="row">
-        <div class="col-8">
+        <div class="col-md-12">
           <div class="heading-content">
             <h1>Pengurus HIMTIKA</h1>
             <div class="heading-content lines"></div>
           </div>
-          <h2 class="my-3 subheading-content">Kami memiliki tim yang hebat</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-5">
+          <h2 class="my-3 subheading-content">Kami memiliki tim yang hebat</h2>
+        </div>
+        <div class="col-md-7">
+          <p style="color: #AAADBE;">Kami menyukai apa yang kami lakukan dan kami <br>
+            melakukannya dengan penuh semangat.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
-              <img src="assets/image/about-team-photo-1.png" class="card-img-top" alt="...">
+              <img src="assets/image/about-team-photo-1.png" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Andrea Lules</h3>
+                <h3 class="card-title card-title-pengurus">Andrea Lules</h3>
                 <p class="card-title">Ketua Himpunan</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
-              <img src="assets/image/about-team-photo-2.png" class="card-img-top" alt="...">
+              <img src="assets/image/about-team-photo-2.png" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Laito French</h3>
+                <h3 class="card-title card-title-pengurus">Laito French</h3>
                 <p class="card-title">Wakil Ketua Himpunan</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
-              <img src="assets/image/about-team-photo-3.png" class="card-img-top" alt="...">
+              <img src="assets/image/about-team-photo-3.png" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Liana Espana</h3>
+                <h3 class="card-title card-title-pengurus">Liana Espana</h3>
                 <p class="card-title">Sekretaris 1</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
-              <img src="assets/image/about-team-photo-4.png" class="card-img-top" alt="...">
+              <img src="assets/image/about-team-photo-4.png" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Petra Julia</h5>
+                <h3 class="card-title card-title-pengurus">Petra Julia</h5>
                   <p class="card-title">Sekretaris 2</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
-              <img src="assets/image/about-team-photo-5.png" class="card-img-top" alt="...">
+              <img src="assets/image/about-team-photo-5.png" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Jewel Smith</h5>
+                <h3 class="card-title card-title-pengurus">Jewel Smith</h5>
                   <p class="card-title">Bendahara 1</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
-              <img src="assets/image/about-team-photo-6.png" class="card-img-top" alt="...">
+              <img src="assets/image/about-team-photo-6.png" class="card-img-top img-fluid" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Thomas Olsen</h5>
+                <h3 class="card-title card-title-pengurus">Thomas Olsen</h5>
                   <p class="card-title">Bendahara 2</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
               <img src="assets/image/about-team-photo-7.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Evan You</h5>
+                <h3 class="card-title card-title-pengurus">Evan You</h5>
                   <p class="card-title">Ketua Divisi Internal</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-3 col-xl-3">
+        <div class="col-md-4 mb-4">
           <div class="about-team">
             <div class="card h-100">
               <img src="assets/image/about-team-photo-8.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">Jonathan Ma</h5>
+                <h3 class="card-title card-title-pengurus">Jonathan Ma</h5>
                   <p class="card-title">Ketua Divisi Edukasi</p>
               </div>
             </div>
