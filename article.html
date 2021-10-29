@@ -1,242 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artikel - Informatics UNSIKA</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/article.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
 
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/article.css" />
+  </head>
 
-    <!-- top-nav -->
-    <section class="top-nav">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="d-flex justify-content-between">
-                        <p>Welcome to <span class="top-nav-title">Website HIMTIKA</span></p>
-                        <p>
-                            <img src="assets/icon/calling.png" alt="Calling">
-                            <span class="top-nav-title">Call for help:</span> (+62) 856 9559 9498
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="d-flex justify-content-between">
-                        <p>
-                            <img src="assets/icon/email.png" alt="Email">
-                            <span class="top-nav-title">Mail to us:</span> himtika@lorem.com
-                        </p>
-                        <div class="social-media">
-                            <a href="#"><img src="assets/icon/facebook.png" alt="Facebook"></a>
-                            <img src="assets/icon/twitter.png" alt="Facebook">
-                            <img src="assets/icon/instagram.png" alt="Instagram">
-                            <img src="assets/icon/tik-tok.png" alt="Tiktok">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+  <body>
+    <header-component
+      navbarLogo="assets/logo/logo.png"
+      navbarTitle="'Beranda', 'Tentang Kami', 'Pengurus', 'Artikel', 'Galeri'"
+      navbarLink="'/', 'about.html', 'organization-committee.html', 'article.html', 'gallery.html'"
+    ></header-component>
 
-    <!-- Navbar -->
-    <section class="navbar-nav">
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="index.html" title="Himpunan Mahasiswa Teknik Informatika UNSIKA">
-                    <img src="assets/logo/Logo.png" width="183" height="70" alt="HIMTIKA">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                        <li class="nav-item me-4">
-                            <a class="nav-link active" aria-current="page" href="index.html" title="Beranda">Beranda</a>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#" title="Tentang Kami">Tentang Kami</a>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="#" title="Pengurus">Pengurus</a>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="article.html" title="Artikel">Artikel</a>
-                        </li>
-                        <li class="nav-item me-4">
-                            <a class="nav-link" href="gallery.html" title="Galeri">Galeri</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="btn btn-contact" title="Kontak Kami">Kontak Kami</a>
-                </div>
-            </div>
-        </nav>
-    </section>
+    <div class="content-spacer"></div>
 
     <section class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h3 class="display-5">Artikel Unggulan</h3>
-                </div>
-                <div class="col-md-8">
-                    <img class="img-line" src="assets/icon/line.png" alt="Line">
-                </div>
-            </div>
-            <div class="row my-3">
-                <div class="col-md-6">
-                    <h2>Baca Berita <br> Terbaru Dari Kami</h2>
-                </div>
-                <div class="col-md-6">
-                    <p class="wrapper-text">Ikuti berita dan pemikiran terbaru kami yang <br> berfokus pada bidang
-                        teknologi.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 my-5">
-                    <div class="card border-0 shadow-sm">
-                        <img src="assets/image/javascript-article-img.png" alt="Javascript" class="img-fluid">
-                        <div class="card-body">
-                            <div class="card-meta">
-                                <p>16 <br> Oktober</p>
-                            </div>
-                            <a href="article-detail.html" title="Mengenal Bahasa Pemrograman Javascript"><h4 class="card-title">Mengenal Bahasa Pemrograman Javascript</h4></a>
-                            <hr class="my-4">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-                                ducimus modi quod, exercitationem commodi vero praesentium. Quod quam officiis
-                                architecto atque, minima nemo quibusdam perferendis porro reiciendis non autem saepe?
-                            </p>
-                            <a href="#" class="btn btn-card my-3 p-2">Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-5">
-                    <div class="card border-0 shadow-sm">
-                        <img src="assets/image/html-article-img.png" alt="HTML" class="img-fluid">
-                        <div class="card-body">
-                            <div class="card-meta">
-                                <p>13 <br> Oktober</p>
-                            </div>
-                            <a href="#" title="Sejarah dan Perkembangan HTML"><h4 class="card-title">Sejarah dan Perkembangan <br> HTML</h4></a>
-                            <hr class="my-4">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-                                ducimus modi quod, exercitationem commodi vero praesentium. Quod quam officiis
-                                architecto atque, minima nemo quibusdam perferendis porro reiciendis non autem saepe?
-                            </p>
-                            <a href="#" class="btn btn-card my-3 p-2">Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-5">
-                    <div class="card border-0 shadow-sm">
-                        <img src="assets/image/mysql-article-img.png" alt="MySQL" class="img-fluid">
-                        <div class="card-body">
-                            <div class="card-meta">
-                                <p>12 <br> Oktober</p>
-                            </div>
-                            <a href="#" title="Ingin Menjadi Seorang Data Scientist Belajar SQL"><h4 class="card-title">Ingin Menjadi Seorang Data Scientist Belajar SQL</h4></a>
-                            <hr class="my-4">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
-                                ducimus modi quod, exercitationem commodi vero praesentium. Quod quam officiis
-                                architecto atque, minima nemo quibusdam perferendis porro reiciendis non autem saepe?
-                            </p>
-                            <a href="#" class="btn btn-card my-3 p-2">Selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="display-5">Artikel Unggulan</h3>
+          </div>
+          <div class="col-md-8">
+            <img class="img-line" src="assets/icon/line.png" alt="Line" />
+          </div>
         </div>
+        <div class="row my-3">
+          <div class="col-md-6">
+            <h2>
+              Baca Berita <br />
+              Terbaru Dari Kami
+            </h2>
+          </div>
+          <div class="col-md-6">
+            <p class="wrapper-text">
+              Ikuti berita dan pemikiran terbaru kami yang <br />
+              berfokus pada bidang teknologi.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 my-5">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="assets/image/javascript-article-img.png"
+                alt="Javascript"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <div class="card-meta">
+                  <p>
+                    16 <br />
+                    Oktober
+                  </p>
+                </div>
+                <a
+                  href="article-detail.html"
+                  title="Mengenal Bahasa Pemrograman Javascript"
+                  ><h4 class="card-title">
+                    Mengenal Bahasa Pemrograman Javascript
+                  </h4></a
+                >
+                <hr class="my-4" />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia ducimus modi quod, exercitationem commodi vero
+                  praesentium. Quod quam officiis architecto atque, minima nemo
+                  quibusdam perferendis porro reiciendis non autem saepe?
+                </p>
+                <a href="#" class="btn btn-card my-3 p-2">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-5">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="assets/image/html-article-img.png"
+                alt="HTML"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <div class="card-meta">
+                  <p>
+                    13 <br />
+                    Oktober
+                  </p>
+                </div>
+                <a href="#" title="Sejarah dan Perkembangan HTML"
+                  ><h4 class="card-title">
+                    Sejarah dan Perkembangan <br />
+                    HTML
+                  </h4></a
+                >
+                <hr class="my-4" />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia ducimus modi quod, exercitationem commodi vero
+                  praesentium. Quod quam officiis architecto atque, minima nemo
+                  quibusdam perferendis porro reiciendis non autem saepe?
+                </p>
+                <a href="#" class="btn btn-card my-3 p-2">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-5">
+            <div class="card border-0 shadow-sm">
+              <img
+                src="assets/image/mysql-article-img.png"
+                alt="MySQL"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <div class="card-meta">
+                  <p>
+                    12 <br />
+                    Oktober
+                  </p>
+                </div>
+                <a
+                  href="#"
+                  title="Ingin Menjadi Seorang Data Scientist Belajar SQL"
+                  ><h4 class="card-title">
+                    Ingin Menjadi Seorang Data Scientist Belajar SQL
+                  </h4></a
+                >
+                <hr class="my-4" />
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Officia ducimus modi quod, exercitationem commodi vero
+                  praesentium. Quod quam officiis architecto atque, minima nemo
+                  quibusdam perferendis porro reiciendis non autem saepe?
+                </p>
+                <a href="#" class="btn btn-card my-3 p-2">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Pagination -->
     <div class="container mb-5">
-        <div class="row">
-            <nav aria-label="Page navigation example">
-                <ul class="pagination pagination-lg justify-content-center">
-                    <li class="page-item active me-4">
-                        <span class="page-link">1</span>
-                    </li>
-                    <li class="page-item me-4"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">&gt;</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="row">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item active me-4">
+              <span class="page-link">1</span>
+            </li>
+            <li class="page-item me-4"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">&gt;</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
-    <!-- footer -->
-    <div class="footer-spacer mt-5"></div>
-    <div class="footer-main mt-5">
-        <div class="footer-main_header-icon">
-            <div class="ellipse">
-                <img src="assets/logo/Himtika.png" alt="HIMTIKA" title="HIMTIKA">
-            </div>
-        </div>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-md-4 mb-5">
-                    <div class="footer-main_title">We are HIMTIKA</div>
-                    <div class="footer-main_desc">
-                        Himpunan Mahasiswa Teknik Informatika Universitas Singaperbangsa
-                        yang berdiri pada tanggal 16 Oktober 2017
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5">
-                    <div class="footer-main_title">Newsletter</div>
-                    <div class="footer-main_desc">
-                        Subscribe our newsletter to <br> get our latest update & news
-                    </div>
-                    <div class="mt-3">
-                        <form class="d-flex form-newsletter">
-                            <input class="form-control" type="text" placeholder="Masukkan Email">
-                            <button class="btn btn-primary btn-newsletter" type="submit"><img src="assets/icon/send.png"
-                                    class="img-fluid"></button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="footer-main_title">Official Info</div>
-                    <div class="footer-main_desc">
-                        <div class="row mb-3">
-                            <div class="col-1">
-                                <img src="assets/icon/pin-24.png" alt="" />
-                            </div>
-                            <div class="col-10">Jl. Lorem ipsum dolor sit amet.</div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-1">
-                                <img src="assets/icon/telephone-24.png" alt="" />
-                            </div>
-                            <div class="col-10">(+62) 856 9999 8888</div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-1">
-                                <img src="assets/icon/email-24.png" alt="" />
-                            </div>
-                            <div class="col-10">himtika@lorem.com</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-end">
-        <div class="footer-end_copyright">
-            2021 © All rights reserved by Informatics UNSIKA
-        </div>
-    </div>
+    <footer-component></footer-component>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
 
+    <script src="assets/js/script.js"></script>
+
+    <script src="components/HeaderComponent.js"></script>
+    <script src="components/FooterComponent.js"></script>
+  </body>
 </html>

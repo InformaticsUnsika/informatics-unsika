@@ -1,0 +1,88 @@
+.about-content {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content .about-content_logo img {
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 300px;
+}
+
+.division-content h2 {
+  color: #212D53;
+}
+
+.division-choose {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  display: flex;
+}
+
+.division-choose .division-choose_icon-out {
+
+  /* border: 1px solid red; */
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #007CFB;
+  margin-top: 5px;
+}
+
+.division-choose .division-choose_icon-in {
+  position: absolute;
+  /* border: 1px solid red; */
+  background: #212D53;
+  padding: 14px;
+  border-radius: 100%;
+  margin-left: 8px;
+}
+
+.division-choose .division-choose_icon-in img {
+  width: 32px;
+  height: 32px;
+}
+
+.division-choose .division-choose_title {
+  box-shadow: 0 0 50px #ccc;
+  border-radius: 20px;
+  padding-left: 25px;
+  width: 80%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  background: #ffffff;
+}
+
+.division-choose .division-choose_title h3 {
+  font-size: 18px;
+}
+
+.about-team {
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+.about-team .card {
+  /* border: 1px solid red; */
+  box-shadow: 0 5px 20px 0 rgba(0,0,0, .2);
+  border-radius: 20px;
+}
+
+.about-team .card img {
+  /* border: 1px solid red; */
+  box-shadow: 0 5px 20px 0 rgba(0,0,0, .05);
+  border-radius: 20px;
+  height: 16rem;
+}
+
+.about-team h3 {
+  font-size: 18px;
+}
+
+.about-team p {
+  font-size: 14px;
+  font-weight: 400;
+}
