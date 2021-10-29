@@ -68,11 +68,9 @@
 .footer-main {
     padding: 50px 0 50px 0;
     background: #212D53;
-    /* border: 1px solid red; */
 }
 
 .footer-main_header-icon {
-    /* border: 1px solid red; */
     margin-top: -130px;
     display: flex;
     justify-content: center;
@@ -93,7 +91,6 @@
 }
 
 .footer-main .footer-main_title {
-    /* border: 1px solid red; */
     margin-bottom: 10px;
     color: #ffffff;
     font-size: 24px;
@@ -101,13 +98,11 @@
 }
 
 .footer-main .footer-main_desc {
-    /* border: 1px solid red; */
     color: #ffffff;
     font-size: 16px;
 }
 
 .footer-main .footer-main_desc img {
-    /* border: 1px solid red; */
     width: 24px;
     height: 24px;
 }
@@ -115,7 +110,6 @@
 .footer-end {
     padding: 10px 0 10px 0;
     background: #007CFB;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
