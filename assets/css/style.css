@@ -153,9 +153,18 @@ body {
   margin-top: 30px;
 }
 
-.hero-btn button {
+.hero-btn .btn-explore {
   width: 200px;
-  font-weight: 500;
+  color: #212D53;
+  font-weight: 700;
+}
+
+.hero-btn .btn-explore:hover {
+  width: 200px;
+  color: #212D53;
+  background-color: #eaeaea;
+  font-weight: 700;
+  border: 1px solid #212D53;
 }
 
 @media (min-width: 1024px) {
@@ -187,13 +196,13 @@ body {
 
   .hero .hero-description {
     /* border: 1px solid red; */
-    font-size: 18px;
+    font-size: 16px;
     line-height: 36px;
     width: auto;
   }
 
   .content-spacer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: calc(100vh - (20vh + 20vh)); */
     height: 300px;
     /* margin: 50px; */
@@ -349,6 +358,12 @@ body {
   color: #007CFB;
 }
 
+.card-title-pengurus{
+  color: #212D53;
+  font-weight: 700;
+  font-size: 30px;
+}
+
 .contact-box {
   display: flex;
   padding: 10px;
@@ -362,6 +377,15 @@ body {
 .contact-box img {
   width: 48px;
   height: 48px;
+}
+
+.form-contact label{
+  color: #007CFB;
+  font-weight: 600;
+}
+
+.form-contact input[type=text], textarea{
+  border: 1px solid #AEAEAE;
 }
 
 .footer-spacer {
@@ -452,4 +476,25 @@ input[type=email]:focus {
   border-radius: 0;
   border: 0;
   background-color: #007CFB;
+}
+
+/* responsive */
+@media(max-width:670px) {
+  .top-nav {
+    display: none;
+    border: 0;
+  }
+  .hero{
+    overflow: hidden;
+  }
+}
+
+@media(max-width:1000px) {
+  .top-nav {
+    border: 0;
+    display: none;
+  }
+  .hero{
+    overflow: hidden;
+  }
 }
