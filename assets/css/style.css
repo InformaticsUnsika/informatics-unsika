@@ -252,6 +252,7 @@ body {
 
 .heading-content {
   display: flex;
+  /* border: 1px solid red; */
 }
 
 .heading-content h1 {
@@ -265,7 +266,8 @@ body {
 .subheading-content {
   /* border: 1px solid red; */
   color: #212D53;
-  font-size: 34px;
+  font-size: 42px;
+  font-weight: 800;
 }
 
 .heading-content .lines {
