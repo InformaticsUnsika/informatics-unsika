@@ -87,7 +87,7 @@ class HeaderComponent extends HTMLElement {
         <nav class="navbar navbar-expand-lg navbar-light navbar-top">
           <div class="container">
             <div class="navbar-logo">
-              <a href="index.html" title="HIMTIKA"><img src="${this._navbarlogo}" alt="HIMTIKA" /></a>
+              <a href="/" title="HIMTIKA"><img src="${this._navbarlogo}" alt="HIMTIKA" /></a>
             </div>
             <button
               class="navbar-toggler"
