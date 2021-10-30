@@ -70,7 +70,7 @@
 .about-team .card img {
   box-shadow: 0 5px 20px 0 rgba(0,0,0, .05);
   border-radius: 20px;
-  height: 16rem;
+  /* height: 16rem; */
 }
 
 .about-team h3 {
